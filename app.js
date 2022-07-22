@@ -32,11 +32,9 @@ message.addEventListener('change', function(e) {
 // Function to send the email
 document.getElementById('submit').onclick = function() {
     let hrefLink = `mailto:theavisekgmre@gmail.com?subject=Hi AB, I'm contacting you from your portfolio website.&body=Full Name: ${fullNameValue}%0D%0AEmail: ${emailValue}%0D%0AMessage:%0D%0A${messageValue}`;
-    // e.preventDefault();
    document.getElementById('mailMe').setAttribute("href", hrefLink);
-    // console.log(hrefLink);
-    // fullName.value = '';
-    // email.value = '';
-    // message.value = '';
+    setTimeout(() => {
+        document.location.reload();
+}, 2000);
 };
 
