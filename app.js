@@ -38,3 +38,9 @@ document.getElementById('submit').onclick = function() {
 }, 2000);
 };
 
+
+// gcaptcha
+
+function onSubmit(token) {
+    document.getElementById("demo-form").submit();
+  }
