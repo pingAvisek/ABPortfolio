@@ -38,9 +38,3 @@ date.innerHTML = new Date().getFullYear();
 // }, 2000);
 // };
 
-
-// gcaptcha
-
-function onSubmit(token) {
-     document.getElementById("submit").submit();
-   }
