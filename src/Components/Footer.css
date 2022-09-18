@@ -1,0 +1,28 @@
+.footer {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media,
+.all-rights-reserved {
+  margin: 2rem auto;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.fa-brands {
+  padding: 1rem 0.5rem;
+  font-size: 2rem;
+}
+
+.fa-brands:hover {
+  color: var(--secondary);
+  transition-delay: 0.1s;
+  transform: scale(1.2);
+}

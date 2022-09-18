@@ -1,0 +1,16 @@
+.about-me-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.about-me-section .left-container {
+  max-width: 40%;
+  text-align: center;
+}
+
+.about-me-section .left-container img {
+  max-width: 70%;
+  border-radius: 50%;
+}

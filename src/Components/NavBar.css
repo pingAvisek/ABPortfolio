@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.navLogo {
+  width: 250px;
+}
+
+.nav-links ul li {
+  display: inline-block;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1.1rem;
+  padding: 0.2rem 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.nav-links ul li a:hover {
+  color: var(--secondary);
+  transition-delay: 0.1s;
+}
