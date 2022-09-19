@@ -22,3 +22,9 @@
 .services-section .cards h2 {
   color: var(--secondary);
 }
+
+@media only screen and (max-width: 700px) {
+  .services-section {
+    flex-direction: column;
+  }
+}

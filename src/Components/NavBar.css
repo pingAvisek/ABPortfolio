@@ -36,4 +36,12 @@
     justify-content: center;
     align-items: center;
   }
+
+  .nav-links {
+    display: none;
+  }
+
+  nav {
+    margin: 2rem 0;
+  }
 }

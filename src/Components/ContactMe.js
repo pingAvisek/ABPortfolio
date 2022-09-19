@@ -11,9 +11,9 @@ const ContactMe = () => {
             </p>
             <form action="https://formspree.io/f/mayvravb" method="post">
                 <input type="text" name="FullName" id="fullName" placeholder="Enter your Full Name" required
-                    autocomplete="off" />
-                <input type="email" name="Email" id="email" placeholder="Enter your Email" required autocomplete="off" />
-                <input type="text" name="Message" id="message" placeholder="Enter your message" required autocomplete="off" />
+                    autoComplete="off" />
+                <input type="email" name="Email" id="email" placeholder="Enter your Email" required autoComplete="off" />
+                <input type="text" name="Message" id="message" placeholder="Enter your message" required autoComplete="off" />
                 <button type="submit" className="btn" id="submit">
                     Submit
                 </button>
