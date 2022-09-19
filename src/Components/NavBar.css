@@ -7,6 +7,7 @@
 
 .navLogo {
   width: 250px;
+  height: 100%;
 }
 
 .nav-links ul li {
@@ -26,4 +27,13 @@
 .nav-links ul li a:hover {
   color: var(--secondary);
   transition-delay: 0.1s;
+}
+
+@media only screen and (max-width: 700px) {
+  .navigation {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

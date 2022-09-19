@@ -7,7 +7,9 @@ const NavBar = () => {
             <div className="container">
                 <div className="navigation">
                     <nav id="logo">
-                        <img src={NavLogo} className="navLogo" alt="ab-logo-not-found" />
+                        <a style={{ textDecoration: "none" }} href="#">
+                            <img src={NavLogo} className="navLogo" alt="ab-logo-not-found" />
+                        </a>
                     </nav>
                     <nav className="nav-links">
                         <ul>

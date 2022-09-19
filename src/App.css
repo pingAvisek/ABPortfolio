@@ -43,7 +43,6 @@ body {
 
   .banner-image {
     max-width: 100%;
-    /* text-align: left; */
   }
   .banner-text h1 {
     font-size: 1.5rem;
@@ -71,15 +70,6 @@ body {
     display: none;
   }
 
-  .navigation {
-    justify-content: center;
-    height: 5vh;
-  }
-
-  #logo span {
-    width: 5vh;
-    font-size: 3rem;
-  }
   nav {
     margin: 2rem 0;
   }
