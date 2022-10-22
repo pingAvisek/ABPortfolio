@@ -1,10 +1,10 @@
 import "./App.css"
-import AboutMe from "./Components/AboutMe";
-import ContactMe from "./Components/ContactMe";
-import Footer from "./Components/Footer";
-import HeroBanner from "./Components/HeroBanner";
 import NavBar from "./Components/NavBar";
+import HeroBanner from "./Components/HeroBanner";
 import Services from "./Components/Services";
+import AboutMe from "./Components/AboutMe";
+import ContactUs from "./Components/ContactUs";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <HeroBanner />
       <AboutMe />
       <Services />
-      <ContactMe />
+      <ContactUs />
       <Footer />
     </div>
   );
