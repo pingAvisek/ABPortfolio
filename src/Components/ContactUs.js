@@ -7,9 +7,10 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export const ContactUs = () => {
     const handleSubmit = (e) => {
-        e.target[0].value = ""
-        e.target[1].value = ""
-        e.target[2].value = ""
+        // console.log(e)
+        setUsername('')
+        setUseremail('')
+        setMessage('')
     }
 
     const [username, setUsername] = useState('')
@@ -21,11 +22,11 @@ export const ContactUs = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
+        handleSubmit(e);
         setSubmitted(true)
         emailjs.sendForm('service_v6lhs8t', 'template_2h7z73t', form.current, 'GdHujjPcs0elxZtC4')
             .then((result) => {
                 setTimeout(() => {
-                    handleSubmit(e);
                     setSubmitted(false)
                     notifySuccess()
                 }, 2000)
@@ -79,6 +80,7 @@ export const ContactUs = () => {
                     onChange={e => setUsername(e.target.value)}
                     required
                     minLength={5}
+                    style={{ textTransform: 'uppercase' }}
 
                 />
                 <label>Email:</label>
@@ -90,6 +92,7 @@ export const ContactUs = () => {
                     onChange={e => setUseremail(e.target.value)}
                     required
                     minLength={5}
+                    style={{ textTransform: 'lowercase' }}
 
                 />
                 <label>Message:</label>
