@@ -7,7 +7,6 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export const ContactUs = () => {
     const handleSubmit = (e) => {
-        // console.log(e)
         setUsername('')
         setUseremail('')
         setMessage('')
@@ -70,17 +69,16 @@ export const ContactUs = () => {
             <p>
                 If you have any questions, please don't <span id="banner-text-secondary">hesitate</span> to contact me.
             </p>
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} autocomplete="off">
                 <label>Your coolname:</label>
                 <input
                     type="text"
                     name='user_name'
                     value={username}
                     placeholder='John Doe'
-                    onChange={e => setUsername(e.target.value)}
+                    onChange={e => setUsername(e.target.value.toUpperCase())}
                     required
                     minLength={5}
-                    style={{ textTransform: 'uppercase' }}
 
                 />
                 <label>Email:</label>
