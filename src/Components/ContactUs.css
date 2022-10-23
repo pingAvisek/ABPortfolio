@@ -32,17 +32,9 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* 
-.contact-me button a {
-  text-decoration: none;
-  font-weight: 500;
-  color: #000;
-} */
-
 .contact-me textarea {
   display: block;
   width: 100%;
-  /* resize: vertical; */
   resize: none;
   color: var(--primary);
   background-color: #000;

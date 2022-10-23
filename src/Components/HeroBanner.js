@@ -14,11 +14,6 @@ const HeroBanner = () => {
                         <h1>Hi, {"\n"} I'm <span id="banner-text-secondary"> AB GHIMIRE.</span></h1>
                         <h2>This is my official portfolio website.
                         </h2>
-                        <a href="#about">
-                            <button className="btn">
-                                <span>Get Started</span>
-                            </button>
-                        </a>
                     </div>
                 </div>
             </div>
