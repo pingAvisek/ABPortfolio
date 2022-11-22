@@ -29,6 +29,18 @@
   transition-delay: 0.1s;
 }
 
+#logo h1 {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 2.7rem;
+  letter-spacing: 0.02cm;
+}
+
+#logo h1:hover {
+  color: var(--secondary);
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 700px) {
   .navigation {
     height: 5vh;

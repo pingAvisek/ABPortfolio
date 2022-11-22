@@ -14,11 +14,12 @@
 .banner img {
   max-width: 90%;
   object-fit: cover;
-  border-radius: 0.5rem;
+  border-radius: 1.8rem 0;
+  background-color: black;
 }
 
 .banner-image {
-  max-width: 40%;
+  max-width: 35%;
 }
 
 #banner-text-secondary {

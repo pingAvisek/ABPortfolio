@@ -26,3 +26,7 @@
   transition-delay: 0.1s;
   transform: scale(1.2);
 }
+
+.all-right-reserved p {
+  text-align: center;
+}
